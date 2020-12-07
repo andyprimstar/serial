@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS serial;
+
+CREATE TABLE serial
+(
+	id INT(10) NOT NULL COMMENT 'PK',
+	number INT(10) NULL DEFAULT NULL COMMENT 'number',
+	PRIMARY KEY (id)
+);
